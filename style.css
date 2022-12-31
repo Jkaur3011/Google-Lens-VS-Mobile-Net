@@ -1,0 +1,265 @@
+body {
+    background: "bg.jpg";
+    background-position: fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Rubik Gemstones', cursive;
+    color: rgb(10, 75, 58);
+    font-size: 35px;
+}
+
+#mn {
+    width: 180px;
+}
+
+#vs {
+    width: 250px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+
+#gl {
+    width: 300px;
+}
+
+#testimg_result1 {
+    margin-left: 100px;
+    background-color: rgb(35, 52, 93);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result1{
+    from{box-shadow: 30px 30px 50px 2px rgb(35, 52, 93);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+li {
+    margin-top: 5px;
+}
+
+.output_gl {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 380px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.output_mn{
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+    width: 380px;
+    height: 20px;
+    font-size: 16px;
+}
+
+
+#testimg_result2 {
+    margin-left: 100px;
+    background-color: rgb(173,110,70);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result2{
+    from{box-shadow: 30px 30px 50px 2px rgb(173,110,70);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result3 {
+    margin-left: 100px;
+    background-color: rgb(206,110,201);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 320px;
+    color: white;
+    animation-name: result3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result3{
+    from{box-shadow: 30px 30px 50px 2px rgb(206,110,201);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result4 {
+    margin-left: 100px;
+    background-color: rgb(132,123,190);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result4{
+    from{box-shadow: 30px 30px 50px 2px rgb(132,123,190);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result5 {
+    margin-left: 100px;
+    background-color: rgb(190,80,123);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result5{
+    from{box-shadow: 30px 30px 50px 2px rgb(190,80,123);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result6 {
+    margin-left: 100px;
+    background-color: rgb(18,20,21);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 300px;
+    color: white;
+    animation-name: result6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result6{
+    from{box-shadow: 30px 30px 50px 2px rgb(18,20,21);}
+    to{box-shadow: 30px 30px 50px 2px white;}
+}
+
+#testimg_result7 {
+    margin-left: 100px;
+    background-color: rgb(189,169,177);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result7;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result7{
+    from{box-shadow: 30px 30px 50px 2px rgb(189,169,177);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result8 {
+    margin-left: 100px;
+    background-color: rgb(42,42,42);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result8;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result8{
+    from{box-shadow: 30px 30px 50px 2px rgb(42,42,42);}
+    to{box-shadow: 30px 30px 50px 2px white;}
+}
+
+#testimg_result9 {
+    margin-left: 100px;
+    background-color: rgb(190,94,109);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 350px;
+    color: white;
+    animation-name: result9;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result9{
+    from{box-shadow: 30px 30px 50px 2px rgb(190,94,109);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+#testimg_result10 {
+    margin-left: 100px;
+    background-color: rgb(73,183,201);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 1200px;
+    height: 330px;
+    color: white;
+    animation-name: result10;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes result10{
+    from{box-shadow: 30px 30px 50px 2px rgb(73,183,201);}
+    to{box-shadow: 30px 30px 50px 2px black;}
+}
+
+span{
+    color: red;
+    font-weight: bold;
+}
+
+#conclusion{
+    margin-top: 80px;
+    width: 1200px;
+    background-color: black;
+    color: grey;
+    font-size: 16px;
+    box-shadow: 20px 20px 50px white;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: darkgray;
+    width: 100%;
+    margin-top: 60px;
+    white-space: pre-line;
+    height: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2px;
+}

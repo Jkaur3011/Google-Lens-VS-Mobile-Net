@@ -1,0 +1,335 @@
+<html>
+
+<head>
+    <title> Mobile Net VS Google Lens</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="versus.png">
+</head>
+
+<body background="bg.jpg">
+    <center>
+        <h1> CASE STUDY </h1>
+        <img id="mn" src="mn.webp"> <img id="vs" src="versus.png"> <img id="gl" src="gl.png">
+        <hr>
+    </center>
+    <ol>
+        <div id="testimg_result1" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img width="350px" src="bed.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Bed </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Day Bed </span>
+            </h5>
+
+            <div>
+                <center>
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+            </div>
+            <hr>
+            <h4 align="center" style="font-size: 15px;"> GOOGLE LENS is more accurate. </h4> <br>
+            <img width="250px" src="gl.png">
+            </center>
+
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+        <div id="testimg_result2" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b> <br>
+                <img style="width: 300px; height: 300px;" src="cap.jpeg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Hat </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Spotlight </span>
+            </h5>
+
+            <div>
+                <center>
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+            </div>
+            <hr>
+            <h4 align="center" style="font-size: 15px;"> GOOGLE LENS is more accurate. </h4> <br>
+            <img width="250px" src="gl.png">
+            </center>
+
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+         
+
+
+        <div id="testimg_result3" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 350px; height: 280px;" src="dog.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Pomerian </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Samoyed </span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> GOOGLE LENS is more accurate. </h4> <br> 
+                <img width="250px" src="gl.png">
+                 </center> 
+
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        
+
+
+        <div id="testimg_result4" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 300px;" src="macbook.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Apple Macbook Air </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Monitor</span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> GOOGLE LENS is more accurate. </h4> <br> 
+                <img width="250px" src="gl.png">
+                 </center> 
+
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+         
+
+
+        <div id="testimg_result5" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 300px;" src="ring.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Clutcher </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Ring </span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> MOBILE NET is more accurate. </h4> <br> 
+                <img width="220px" src="mn.webp">
+                 </center> 
+
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        
+
+
+        <div id="testimg_result6" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 350px; height: 250px;" src="shoes.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Boots </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Shoes  </span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> BOTH guesses are correct. </h4> <br> 
+                <img width="300px" src="gl.png">
+                <img width="220px" src="mn.webp">
+                 </center> 
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        
+
+        <div id="testimg_result7" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 300px;" src="soap dispenser.webp">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Hand Wash </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Soap dispenser </span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> MOBILE NET is more accurate. </h4> <br> 
+                <img width="220px" src="mn.webp">
+                 </center> 
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    
+
+
+        <div id="testimg_result8" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 320px; height: 300px;" src="sweatshirt.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Sweatshirt </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Cloak </span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> GOOGLE LENS is more accurate. </h4> <br> 
+                <img width="300px" src="gl.png">
+                 </center> 
+           
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+        <div id="testimg_result9" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 350px; height: 280px;" src="teddy.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Stuffed Toy </span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Teddy Bear</span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> MOBILE NET is more accurate. </h4> <br> 
+                <img width="220px" src="mn.webp">
+                 </center> 
+
+            
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+        <div id="testimg_result10" class="col-xs-12">
+
+            <li class="col-sm-4 col-xs-12">
+                <b> Test Image-</b>
+                <img style="width: 350px; height: 280px;" src="unicorn bottle.jpg">
+            </li>
+
+            <h5 class="col-sm-4 col-xs-12 output_gl">
+                Output at <b>GOOGLE LENS -</b>
+                <span> Water Bottle</span>
+            </h5>
+
+            <h5 class="col-sm-4 col-xs-12 output_mn">
+                Output at <b>MOBILE NET -</b>
+                <span> Water Bottle</span>
+            </h5>
+
+            <div> 
+                <center> 
+                    <h4 style="font-family: 'Rubik Vinyl', cursive; font-size: 20px;"> Result - </h4>
+                </div> <hr>
+                <h4 align="center" style="font-size: 15px;"> BOTH guesses are correct. </h4> <br> 
+                <img width="300px" src="gl.png">
+                <img width="220px" src="mn.webp">
+                 </center>
+            
+        </div>
+
+    </ol> <br> <br> <br> <br> <br> <br> <br> 
+
+    <center> 
+    <div class="btn" id="conclusion">
+        I have tested 10 images 
+        <br> GOOGLE LENS has guessed 7 images more accurately and mobilenet has guessed 3 images. 
+        <br> So, according to my case study, GOOGLE LENS is more accurate. 
+    </div>
+    
+
+     <footer>Made By - Japnoor</footer> </center>
+</body>
